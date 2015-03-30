@@ -1,0 +1,111 @@
+<!--  Aboutme.html ; Liliya Artyukh ;  page that provides information about me             -->
+
+<!DOCTYPE html>
+<html>
+<head><% include partials/head.ejs %></head>
+
+<body onload="main();">
+
+<!--               header section  start            -->
+<!-- nav, contact me, banner -->
+<% include partials/nav.ejs %>
+<% include partials/header.ejs %>
+<!--               header section   end           -->
+
+
+<!--                 content 1 start                -->
+<div id="AboutMeSection" class="container">
+	<div class="row" >
+  		<div class="col-md-3  col-md-offset-2 col-sm-3  col-sm-offset-2 ">
+  			<img   class="img-responsive"  src="images/myphoto1.png">
+  		</div>
+  		<div class="col-md-6 col-sm-6">
+     		<h2>Liliya Artyukh</h2>
+       		<p>Mature Centennial College Software Engineering student in 3rd year of program</p>
+    		<p>University educated, former business founder embarking on career change</p>
+   		 	<br />
+    		<br />
+        	<a id="resume" href="images/LiliyaArtyukhresumeJan2015.doc"><h6>Download my resume</h6></a>
+  		</div>
+	</div>
+</div>
+<!--                 content 1 end                -->
+
+<div class="sectionSeparator"></div>
+
+<!--                 content 2 start                -->
+<div id="educationSection">
+	<div id="educationContainer" class="container">
+		<div class="row" >
+			<div class=" headingLiliya col-md-12" >
+				<h2>Education</h2>
+			</div>
+		</div>
+
+		<div class="row" >
+			<div  class="col-md-4 col-md-offset-1  col-sm-12">
+				<a  target="_blank" href="http://www.ablaikhan.kz/en/our-university/facultets-and-departments/faculty-of-foreign-languages.html" >
+					<div id="univInfo">
+						<img  id="univVisible"  class="img-responsive"  src="/images/projects/univ_front.png" />
+						<img  id="univHidden" class="img-responsive"  src="/images/projects/univ_back.png" />
+					</div>
+				</a>
+			</div>
+			<div class="col-md-4 col-md-offset-2  col-sm-12">
+				<a target="_blank" href="http://www.centennialcollege.ca/programs-courses/full-time/software-engineering-technology-coop/" >
+					<div id="collegeInfo">
+						<img  id="collegeVisible" class="img-responsive" src="/images/projects/college_front.png" />
+						<img  id="collegeHidden" class="img-responsive"  src="/images/projects/college_back.png"  />
+					</div>
+				</a>
+			</div>
+		</div>
+	</div><!-- end of educational container   -->
+
+</div><!-- end of educational section   -->
+<!--                 content 2 end                -->
+
+<div class="sectionSeparator"></div>
+
+<!--                 content 3 start                -->
+<div  class="container" id="experienceSection">
+	<div class="row" >
+		<div class=" headingLiliya col-md-12" >
+			<h2>Related Experience</h2>
+		</div>
+	</div>
+
+   <div class="row" id="hiddenImages">
+	   <div class=" col-md-10 col-md-offset-2  " hidden class="hiddenDetails" id="javaDetails"><img class="img-responsive" src="/images/projects/javadetails.png"></div>
+	   <div class=" col-md-10 col-md-offset-2 " hidden class="hiddenDetails" id="dataDetails"><img class="img-responsive" src="/images/projects/datadetails.png"></div>
+	   <div class=" col-md-10 col-md-offset-2 " hidden class="hiddenDetails" id="docDetails"><img class="img-responsive" src="/images/projects/docdetails.png"></div>
+	   <div class=" col-md-10 col-md-offset-2 " hidden class="hiddenDetails"  id="webDetails"><img class="img-responsive" src="/images/projects/webdetails.png"></div>
+	   <div class=" col-md-10 col-md-offset-2 " hidden class="hiddenDetails"  id="testDetails"><img class="img-responsive" src="/images/projects/testdetails.png"></div>
+	   <div class=" col-md-10 col-md-offset-2 " hidden class="hiddenDetails"  id="csharpDetails"><img class="img-responsive" src="/images/projects/csdetails.png"></div>
+	</div>
+
+	<div >
+		<div class="row" >
+			<div class="col-md-3 col-md-offset-1 col-sm-4 col-xs-4 " ><a id="csharpEx"><img class="sizeOfIconsSM img-responsive"  src="/images/projects/CSlogo.png"></a></div>
+			<div class="col-md-3 col-sm-4 col-xs-4 " ><a id="dataEx"><img class="sizeOfIconsSM img-responsive" src="/images/projects/datalogo.png"></a></div>
+			<div class="col-md-3 col-sm-4 col-xs-4 "><a id="webEx"><img class="sizeOfIconsSM img-responsive" src="/images/projects/weblogo.png"></a></div>
+		</div>
+
+		<div  class="row" >
+			<div class="col-md-3 col-md-offset-1 col-sm-4 col-xs-4 " ><a id="javaEx"><img class="sizeOfIconsSM img-responsive" src="/images/projects/javalogo.png"></a></div>
+			<div class="col-md-3 col-sm-4 col-xs-4 "  ><a id="docEx"><img class="sizeOfIconsSM img-responsive" src="/images/projects/doclogo.png"></a></div>
+			<div class="col-md-3 col-sm-4 col-xs-4 " ><a id="testEx"><img class="sizeOfIconsSM img-responsive" src="/images/projects/testlogo.png"></a></div>
+		</div>
+	</div>
+</div>
+<!--                 content 3 end                -->
+
+<!--                 footer start                -->
+<% include partials/social.ejs %>
+<% include partials/sitemap.ejs %>
+<% include partials/footer.ejs %>
+<!--                 footer end               -->
+
+<% include partials/jsdefaults.ejs %>
+</body>
+</html>

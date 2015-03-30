@@ -1,0 +1,490 @@
+/*  styles.css ; Liliya Artyukh ;  page that has css styles for all pages on this website            */
+
+
+/*-------------------- global style start------------------*/
+body {
+background-color: #EDEDED;
+b order: solid 1px red;
+}
+
+*{
+b order: solid 1px blue;
+}
+
+.sectionSeparator{
+ clear: both;
+height: 10px;
+background-color: grey;
+}
+/*-------------------- global style start------------------*/
+
+/* ------------------------------------------------------------- header start -------------------------- */
+
+
+#topNavBar {
+padding: 0 0;
+margin: 0 0;
+}
+
+#logoImage {
+width: 55px;
+height: 42px;
+}
+
+
+#logoBig {
+float: left;
+padding: 5px 15px 0  5px ;
+}
+
+#linkToSite: active {
+text-decoration: none;
+}
+
+#linkToSite:  link  {
+text-decoration: none;
+}
+#linkToSite: visited  {
+text-decoration: none;
+}
+#linkToSite:  hover {
+text-decoration: none;
+}
+
+#myName {
+color: #C2C2C2;
+padding: 15px 5px 0  5px ;
+}
+
+#siteName {
+width: 180px;
+float: left;
+}
+
+#mainHeader {
+padding: 10px 25px 0 50px;
+height: 250px;
+background-image: url("../images/green_green.jpg");
+}
+
+#mainHeader p{
+font-size:21px;
+font-weight:200;
+}
+
+#contactMe div p{
+font-weight: bold;
+color: #DDBBAA;
+padding-top: 5px;
+padding-left: 5px;
+}
+
+#envelopeIcon{
+width: 30px;
+height: 16px;
+}
+
+#contactMe div{
+    position: absolute;
+    right: 0px;
+    width: 115px;
+height: 30px;  
+}
+
+#contactMe{
+height: 30px;  
+align: right;
+margin-top: 50px;
+background-color: #025D79;
+}
+
+#contactLink:link{
+color: #C9C9B0;
+text-decoration: none;
+}
+
+#contactLink:visited{
+color: #C9C9B0;
+text-decoration: none;
+}
+
+#contactLink:hover{
+color: #C77B38;
+text-decoration: none;
+}
+
+#bannerTitle{
+color: #333333;
+font-size:63px;
+font-weight:200;
+} 
+
+#breadcrums {
+padding: 0 0;
+
+}
+
+/* -------------------------------------------------------------------------------------- header end -------------------------- */
+
+
+/*--------------------------------------------------------------------------------------- footer start --------------------------- */
+
+#preFooter {
+b order: solid 1px blue;
+c lear: both;
+background-color: black; #3D494C  ; /*#025D79;*/
+height: auto;
+min-height: 90px;
+}
+
+/*------------ STAY Connected div links  start - --------------*/
+#stayConnected { 
+height: auto;
+width: auto;
+margin: 0 auto;
+}
+
+#stayConnected div{
+float: left;
+}
+
+#stayConnectedText{
+b order: solid 1px green;
+text-align: right;
+padding-top: 22px;
+color: #CCCCCC;
+}
+
+.SMicon{
+b order: solid 1px green;
+m ax-width:48px;
+max-height:48px;
+width: auto;
+height: auto;
+margin-left: 10px;
+margin-right: 10px;
+margin-top: 5px;
+margin-bottom: 5px;
+}
+
+#facebookHidden  {
+display: none;
+}
+#linkedinHidden {
+display: none;
+}
+#googleHidden{
+display: none;
+}
+
+#siteView {
+height: 10px;
+color: #CCCCCC;
+text-align: center;
+}
+/*------------ STAY Connected div links end- --------------*/
+
+
+#footerSiteMap{
+padding-top: 3px;
+color: #01824A;
+background-color: #012D3A; 
+height: 150px;
+}
+
+#SiteMapContainer {
+ margin-left: auto;
+ margin-right: auto;
+width: 65%;
+}
+
+#SiteMapContainer div{
+padding: 5px;
+width: 20%;
+float: left;
+}
+
+.SiteMapSubTitle {
+font-size: smaller;
+padding-left: 10px;
+}
+
+.SiteMapSubTitle:active {
+color: #3FADD5;
+text-decoration: none;
+}
+.SiteMapSubTitle:link {
+color: #2A6496;
+text-decoration: none;
+}
+.SiteMapSubTitle:visited{
+color: #2A6496;
+text-decoration: none;
+}
+.SiteMapSubTitle:hover {
+color: #C77B38;
+text-decoration: none;
+}
+.footerM:link{
+color: #01824A;
+}
+.footerM:visited{
+color: #028D64;
+text-decoration: none;
+}
+.footerM:hover{
+color: #C77B38;
+text-decoration: none;
+}
+
+#copyrightStatement   {
+background-color: #012D3A; 
+color: #CCCCCC;
+  font-size: 10px;
+ text-align: center;
+    p osition: absolute;
+    r ight: 0px;
+    w idth: 200px;
+    }
+
+#footer{
+color: #ADADAD;
+  text-align: center;
+  font-size: 10px;
+  padding-top: 10px;
+background-color: #2B2B2B  ;/*#005566;*/
+height: 40px;
+}
+/*--------------------------------------------------------------------------------- footer end --------------------------- */
+
+/*--------------------------------------------------------------------------------- content start --------------------------- */
+/*----contact me start---*/
+#businessCard {
+padding-left: 5%;
+padding-bottom: 20px;
+}
+#contactMeContent{
+padding-bottom: 20px;
+}
+/*----contact me end---*/
+
+/*----home page start---*/
+#seeMore {
+b order: solid 2px red;
+m argin-top:500px;
+height: 100px;
+background-image: url("../images/code1.gif");
+ o pacity: 0.5;
+    f ilter: alpha(opacity=40);
+    display: block;
+}
+
+
+#callToAction{
+margin-top: 10px;
+    width: 151px;
+    height: 74px;margin-left: 15%;
+  background-image: url("../images/callToAction.gif") ;
+
+}
+
+
+.carousel-inner{
+m argin-left: auto;
+m argin-right: auto;
+w idth: 50%;
+
+}
+#content3 {
+w idth: 700px;
+h eight: 700px;
+text-align: center;
+}
+
+#icon {
+margin: 0 0 0 0;
+padding: 0 0 0 0;
+}
+
+textarea {
+    resize: none;
+}
+
+
+#myCarousel{
+margin-top: 20px;
+margin-bottom: 20px;
+b order: solid 2px red;
+}
+
+#welcomeDiv{
+text-align: center;
+height: 250px;
+}
+
+#welcomeTitle{
+margin-top: 25px;
+marging-bottom: 80px;
+}
+
+#welcomeList{
+text-align: center;
+w idth: 100px;
+margin-left: auto;
+margin-right: auto;
+}
+
+/*---- home page end  ---*/
+
+
+/*---- about me start --*/
+.headingLiliya {
+text-align: center;
+}
+
+#AboutMeSection{
+min-height: 220px;
+height: auto;
+margin-bottom: 20px;
+margin-top: 20px;
+}
+
+#AboutMeContainer{
+margin-left: auto;
+marging-right: auto;
+w idth: 75%;
+}
+
+#AboutMeContainer div{
+float:left;
+}
+
+#bioLiliya{
+margin-top: 5px;
+margin-bottom: 5px;
+}
+
+#shortBio{
+text-align: left;
+}
+#M yPhoto{
+width: 270px;
+height: 324px;
+}
+
+
+#educationSection{
+b order: solid 1px blue;
+t ext-align: center;
+m in-height: 380px;
+h eight: auto;
+}
+#educationContainer{
+background-color: white;
+b order: solid 1px red;
+m argin-left: auto;
+m arging-right: auto;
+w idth: 75%;
+}
+#educationContainer div{
+m argin-bottom: 10px;
+f loat: left;
+}
+.educationDivs educationDivsMiddle{
+m argin-top: 5px;
+d isplay: block;
+t ext-indent: -99999px;
+f loat:right;
+}
+.educationDivsMiddle{
+d isplay: block;
+text-indent: -99999px;
+width: 50px;
+height: 10px;
+}
+.educationDivs{
+d isplay: block;
+t ext-indent: -99999px;
+w idth: 418px;
+height: 313px;
+}
+#univInfo {
+b ackground: url("../images/univ_front.png");
+height: 313px;
+d isplay: block;
+b ackground-position: center; 
+  b ackground-repeat: no-repeat;
+}
+#univInfo:hover{
+b ackground: url("../images/univ_back.png");
+b ackground-position: center; 
+  b ackground-repeat: no-repeat;
+}
+#collegeInfo {
+b ackground: url("../images/college_front.png");
+height: 313px;
+d isplay: block;
+b ackground-position: center; 
+  b ackground-repeat: no-repeat;
+}
+#collegeInfo:hover{
+b ackground: url("../images/college_back.png");
+b ackground-position: center; 
+  b ackground-repeat: no-repeat;
+}
+
+#collegeHidden {
+display: none;
+}
+
+#univHidden {
+display: none;
+}
+#experienceSection{
+b order: solid 1px red;
+background-color: #EDEDED;
+text-align: center;
+min-height: 200px;
+height: auto;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+#experienceContainer{
+margin-left: auto;
+marging-right: auto;
+width: 82%;
+}
+.experienceRow {
+float: left;
+display: block;
+}
+.experienceRow div{
+float: left;
+}
+/*---- about me end  ---*/
+/*--------------------------------------------------------------------------------- content end --------------------------- */
+
+
+
+.hiddenDetails {
+  display: none;
+}
+
+#sideBar {
+    width: 100px;
+    height: 100px;
+    background: red;
+    -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s;
+}
+
+#sideBar:hover {
+    width: 300px;
+}
+
+/*--------------------------------------------------------------------------------- CSS for View Full Site --------------------------- */
+/* CSS for View Full Site */
+
+
+/*--------------------------------------------------------------------------------- CSS for View Full Site --------------------------- */

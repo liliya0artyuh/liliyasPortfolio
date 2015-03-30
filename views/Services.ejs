@@ -1,0 +1,85 @@
+<!--  Services.html ; Liliya Artyukh ;  page that provides list and description of my services              -->
+
+<!DOCTYPE html>
+<html>
+<html>
+<head><% include partials/head.ejs %></head>
+
+<body onload="main();">
+
+<!--               header section  start            -->
+<!-- nav, contact me, banner -->
+<% include partials/nav.ejs %>
+<% include partials/header.ejs %>
+<!--               header section   end           -->
+
+
+<!--                 content 1 start                -->
+ <div class="container">
+      <h2>Services:</h2>
+      <p>I offer quality in any of the services I provide.</p>
+      <div class="panel-group" id="accordion">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Software Development</a>
+            </h4>
+          </div>
+          <div id="collapse1" class="panel-collapse collapse in">
+            <div class="panel-body">I can do programming in C# and Java. I am familiar with SDLC, OOP, and Agile Methodology.</div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Database Development and Reporting</a>
+            </h4>
+          </div>
+          <div id="collapse2" class="panel-collapse collapse">
+            <div class="panel-body">I have experience with Oracle, MS SQL Server, MySQL, and other. I can write various types of SQL statements and design tables and relationships between them.</div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+		          <div class="panel-heading">
+		            <h4 class="panel-title">
+		              <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Testing</a>
+		            </h4>
+		          </div>
+		          <div id="collapse3" class="panel-collapse collapse">
+		            <div class="panel-body">I am familiar with such tools as HPQC, JUnit, LoadRunner and other. I have experience doing regression, acceptance and verification testing. I also have done some unit and system testing.</div>
+		          </div>
+        </div>
+        <div class="panel panel-default">
+		          <div class="panel-heading">
+		            <h4 class="panel-title">
+		              <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Web Development</a>
+		            </h4>
+		          </div>
+		          <div id="collapse4" class="panel-collapse collapse">
+		            <div class="panel-body">My skills in web development include HTML, CSS, Javascript, XML, and other.</div>
+		          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">Project Management</a>
+            </h4>
+          </div>
+          <div id="collapse5" class="panel-collapse collapse">
+            <div class="panel-body">I can read and write technical and business documentation. I am very organized and enjoy planning.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!--                 content 1 end                -->
+
+<!--                 footer start                -->
+<% include partials/social.ejs %>
+<% include partials/sitemap.ejs %>
+<% include partials/footer.ejs %>
+<!--                 footer end               -->
+
+<% include partials/jsdefaults.ejs %>
+</body>
+</html>

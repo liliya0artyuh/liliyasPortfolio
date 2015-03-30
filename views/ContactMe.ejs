@@ -1,0 +1,60 @@
+<!--  ContactMe.html ; Liliya Artyukh ;  home page that allos user to contact me            -->
+<!DOCTYPE html>
+<html>
+<html>
+<head><% include partials/head.ejs %></head>
+
+<body onload="main();">
+
+<!--               header section  start            -->
+<!-- nav, contact me, banner -->
+<% include partials/nav.ejs %>
+<% include partials/header.ejs %>
+<!--               header section   end           -->
+
+
+<!--                 content 1 start                -->
+<div id="contactMeContent" class="container">
+<div class="row">
+  <div class="col-md-12">
+   <h2>QR Business Card</h2>
+       <p>Please scan the QR code to get my contact details.</p>
+   <div id="businessCard"><img src="images/my_business_card.jpg" alt="business card" title="business card" /></div>
+  </div>
+</div>
+</div>
+<!--                 content 1 end                -->
+
+
+<!--                 content 2 start                -->
+<div id="contactMeContent" class="container">
+<div class="row">
+
+  <div class="col-md-12">
+    <h2>Send me an email</h2>
+     <form role="form">
+       <div class="form-group">
+         <label for="email">Email:</label>
+         <input type="email" class="form-control" id="email" placeholder="Enter email">
+       </div>
+       <div class="form-group">
+         <label for="txt">Text:</label>
+         <textarea rows="5"  class="form-control" id="txt" placeholder="Write your message here."></textarea>
+       </div>
+       <button type="submit" class="btn btn-default">Send</button>
+  </form>
+  </div>
+</div>
+</div>
+<!--                 content 2 end                -->
+
+
+<!--                 footer start                -->
+<% include partials/social.ejs %>
+<% include partials/sitemap.ejs %>
+<% include partials/footer.ejs %>
+<!--                 footer end               -->
+
+<% include partials/jsdefaults.ejs %>
+</body>
+</html>
